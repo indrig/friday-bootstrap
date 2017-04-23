@@ -15,6 +15,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Friday\\Bootstrap": "src/" }
+        "psr-4": { "Friday\\Bootstrap\\": "src/" }
     }
 }
