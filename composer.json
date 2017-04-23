@@ -4,7 +4,6 @@
     "keywords": ["Friday", "Bootstrap", "Friday Framework"],
     "type": "friday-extension",
     "license": "BSD-3-Clause",
-
     "require": {
         "indrig/friday": "*",
         "twbs/bootstrap": "4.0.0-alpha.6"
