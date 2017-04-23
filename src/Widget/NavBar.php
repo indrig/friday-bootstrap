@@ -124,7 +124,7 @@ class NavBar extends AbstractWidget
      * Locate toggle at right side
      * @var bool
      */
-    public $toggleButtonRight = false;
+    public $toggleButtonRight = true;
     /**
      * @var array list of items in the nav widget. Each array element represents a single
      * menu item which can be either a string or an array with the following structure:
@@ -146,6 +146,15 @@ class NavBar extends AbstractWidget
 
     public $itemsOptions = [];
 
+    /**
+     * @var string
+     */
+    public $afterItems;
+
+    /**
+     * @var string
+     */
+    public $beforeItems;
     /**
      * Initializes the widget.
      */
@@ -188,7 +197,13 @@ class NavBar extends AbstractWidget
      */
     public function run()
     {
+        if($this->beforeItems !== null){
+            echo $this->beforeItems;
+        }
         echo $this->renderItems();
+        if($this->afterItems !== null){
+            echo $this->afterItems;
+        }
         $tag = ArrayHelper::remove($this->containerOptions, 'tag', 'div');
         echo Html::endTag($tag);
         /*if ($this->renderInnerContainer) {
