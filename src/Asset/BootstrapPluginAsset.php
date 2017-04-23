@@ -1,5 +1,5 @@
 <?php
-namespace Friday\Bootstrap;
+namespace Friday\Bootstrap\Asset;
 
 use Friday\Web\AssetBundle;
 /**
@@ -10,7 +10,7 @@ class BootstrapPluginAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@composer/bootstrap/dist';
+    public $sourcePath = '@vendor/twbs/bootstrap/dist';
 
     /**
      * @inheritdoc
@@ -26,7 +26,8 @@ class BootstrapPluginAsset extends AssetBundle
      * @inheritdoc
      */
     public $depends = [
-        'Friday\Web\JqueryAsset',
-        'Friday\Bootstrap\BootstrapAsset',
+        'Friday\Asset\JqueryAsset',
+        'Friday\Bootstrap\Asset\BootstrapAsset',
+        'Friday\Bootstrap\Asset\TetherAsset',
     ];
 }

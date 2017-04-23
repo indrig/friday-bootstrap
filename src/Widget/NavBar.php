@@ -1,8 +1,8 @@
 <?php
-namespace Friday\Bootstrap;
+namespace Friday\Bootstrap\Widget;
 
 use Friday;
-use Friday\Web\Widget;
+use Friday\Bootstrap\Asset\BootstrapPluginAsset;
 use Friday\Helper\ArrayHelper;
 use Friday\Helper\Html;
 
@@ -14,8 +14,8 @@ use Friday\Helper\Html;
  * or [[\Friday\Widget\Menu]] to build up such content. For example,
  *
  * ```php
- * use Friday\Bootstrap\NavBar;
- * use Friday\Bootstrap\Nav;
+ * use Friday\Bootstrap\Widget\NavBar;
+ * use Friday\Bootstrap\Widget\Nav;
  *
  * NavBar::begin(['brandLabel' => 'NavBar Test']);
  * echo Nav::widget([

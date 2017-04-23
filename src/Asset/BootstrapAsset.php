@@ -1,5 +1,6 @@
 <?php
-namespace Fridat\Bootstrap;
+namespace Friday\Bootstrap\Asset;
+
 use Friday\Web\AssetBundle;
 /**
  * Asset bundle for the Twitter bootstrap css files.
