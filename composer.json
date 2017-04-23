@@ -1,0 +1,21 @@
+{
+    "name": "indrig/friday-bootstrap",
+    "description": "The Twitter Bootstrap extension for the Friday Framework",
+    "keywords": ["async", "PHP", "Framework"],
+    "type": "framework",
+    "license": "BSD-3-Clause",
+
+    "require": {
+        "indrig/friday": "*",
+        "twbs/bootstrap": "4.0.0-alpha.6"
+    },
+    "authors": [
+        {
+            "name": "Igor Bubnevich",
+            "email": "zeroreal@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Friday\\Bootstrap": "src/" }
+    }
+}
