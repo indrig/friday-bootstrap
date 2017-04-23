@@ -19,8 +19,8 @@ class TetherAsset extends AssetBundle
     {
         parent::init();
 
-        $this->js[] = FRIDAY_DEBUG ? 'css/tether.js' : 'css/tether.min.js';
-        $this->css[] = FRIDAY_DEBUG ? 'css/tether.js' : 'css/tether.min.js';
+        $this->js[] = FRIDAY_DEBUG ? 'js/tether.js' : 'js/tether.min.js';
+        $this->css[] = FRIDAY_DEBUG ? 'css/tether.css' : 'css/tether.min.css';
     }
 
 }

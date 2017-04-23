@@ -19,7 +19,7 @@ class BootstrapAsset extends AssetBundle
     {
         parent::init();
 
-        $this->js[] = FRIDAY_DEBUG ? 'css/bootstrap.css' : 'css/bootstrap.min.css';
+        $this->css[] = FRIDAY_DEBUG ? 'css/bootstrap.css' : 'css/bootstrap.min.css';
     }
 
 }
