@@ -1,8 +1,8 @@
 {
     "name": "indrig/friday-bootstrap",
     "description": "The Twitter Bootstrap extension for the Friday Framework",
-    "keywords": ["async", "PHP", "Framework"],
-    "type": "framework",
+    "keywords": ["Friday", "Bootstrap", "Friday Framework"],
+    "type": "friday-extension",
     "license": "BSD-3-Clause",
 
     "require": {
