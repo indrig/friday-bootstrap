@@ -7,7 +7,7 @@ use Friday\Web\Widget as BaseWidget;
  * Class Widget is the base class for all bootstrap widgets.
  * @package Friday\Bootstrap
  */
-class Widget extends BaseWidget
+class AbstractWidget extends BaseWidget
 {
     use BootstrapWidgetTrait;
 
